@@ -107,3 +107,4 @@ display(df)
 
 # Write to Parquet
 write_to_adls_parquet(df, f"/mnt/mlworks-staging-container/{run_id}/{file_type}/", mode="overwrite")
+# we are saving the temporary output to a staging location
